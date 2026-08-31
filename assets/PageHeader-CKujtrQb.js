@@ -1,0 +1,2 @@
+import{a as e}from"./vendor-motion-CxC5qaxb.js";var t=e();function n({index:e,eyebrow:n,title:r,description:i,aside:a}){return(0,t.jsxs)(`header`,{className:`page-header reveal-in`,children:[(0,t.jsxs)(`div`,{children:[(0,t.jsxs)(`div`,{className:`page-index`,children:[(0,t.jsx)(`span`,{children:e}),n]}),(0,t.jsx)(`h1`,{children:r}),(0,t.jsx)(`p`,{children:i})]}),a?(0,t.jsx)(`div`,{className:`page-header__aside`,children:a}):null]})}export{n as t};
+//# sourceMappingURL=PageHeader-CKujtrQb.js.map

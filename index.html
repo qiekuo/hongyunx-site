@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark" data-theme-mode="system" data-motion="on">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070b0a" />
+    <meta name="description" content="HongyunX — AI-native development agent with CLI, GUI, and multi-platform gateway | AI 原生开发智能体，支持命令行、图形界面与多平台网关" />
+    <link rel="icon" type="image/svg+xml" href="./branding/hongyunx-mark.svg" />
+    <title>HongyunX</title>
+
+    <!-- Open Graph / 飞书 / 微信 / Slack 链接预览 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="HongyunX" />
+    <meta property="og:title" content="HongyunX" />
+    <meta property="og:description" content="AI-native development agent with CLI, GUI, and multi-platform gateway. Explore commands, architecture, and live demos." />
+    <meta property="og:url" content="https://qiekuo.github.io/hongyunx-site/" />
+    <meta property="og:image" content="https://qiekuo.github.io/hongyunx-site/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HongyunX" />
+    <meta name="twitter:description" content="AI-native development agent with CLI, GUI, and multi-platform gateway." />
+    <meta name="twitter:image" content="https://qiekuo.github.io/hongyunx-site/og-image.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://qiekuo.github.io/hongyunx-site/" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./branding/hongyunx-mark.png" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "HongyunX",
+      "alternateName": "HongyunX Agent",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Any",
+      "description": "AI-native development agent with CLI, GUI, and multi-platform gateway supporting Feishu, Discord, and more.",
+      "url": "https://qiekuo.github.io/hongyunx-site/",
+      "author": {
+        "@type": "Person",
+        "name": "qiekuo"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <script>
+      (() => {
+        try {
+          const root = document.documentElement;
+          const storedTheme = localStorage.getItem("hongyunx.atlas.theme");
+          const mode = ["light", "dark", "system"].includes(storedTheme) ? storedTheme : "system";
+          const theme = mode === "system" ? (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light") : mode;
+          const storedLanguage = localStorage.getItem("hongyunx.atlas.language");
+          const language = ["zh-CN", "en"].includes(storedLanguage) ? storedLanguage : (navigator.language.toLowerCase().startsWith("zh") ? "zh-CN" : "en");
+          const storedMotion = localStorage.getItem("hongyunx.atlas.motion");
+          const motion = storedMotion === "on" || storedMotion === "off" ? storedMotion : (matchMedia("(prefers-reduced-motion: reduce)").matches ? "off" : "on");
+          root.dataset.theme = theme;
+          root.dataset.themeMode = mode;
+          root.dataset.motion = motion;
+          root.dataset.language = language;
+          root.lang = language;
+          document.querySelector('meta[name="theme-color"]').setAttribute("content", theme === "dark" ? "#070b0a" : "#f4f8f7");
+        } catch {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/hongyunx-site/assets/index-CyYazW1m.js"></script>
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/rolldown-runtime-CNC7AqOf.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-lucide-B6RrhaWy.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-motion-CxC5qaxb.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-three-CymPJOrR.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/useTranslation-DbRar6Zf.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/SeoHead-uJ2VqkOB.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-tsparticles-CZoAhcem.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/chunk-KS7C4IRE-DgZNxtU5.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/usePreferences-Dm_YiC2t.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/SettingsControls-CjbxLAWi.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/PageHeader-CKujtrQb.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/project-D_5wPD2S.js">
+    <link rel="stylesheet" crossorigin href="/hongyunx-site/assets/index-I8lAspL3.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

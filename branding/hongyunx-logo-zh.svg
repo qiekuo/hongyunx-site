@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 300" role="img" aria-labelledby="title desc">
+  <title id="title">HongyunX Agent · HongyunX Agent</title>
+  <desc id="desc">HongyunX Agent 中文字标，使用朱砂鎏金龙凤印，并保留完整英文名 HongyunX Agent。</desc>
+  <defs>
+    <linearGradient id="seal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b2532"/><stop offset="1" stop-color="#5b1420"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4d98f"/><stop offset=".5" stop-color="#e1b55b"/><stop offset="1" stop-color="#b87a2b"/></linearGradient>
+  </defs>
+  <g transform="translate(10 10) scale(.55)">
+    <circle cx="256" cy="256" r="239" fill="#3c1019" stroke="#8f202c" stroke-width="14"/>
+    <circle cx="256" cy="256" r="220" fill="url(#seal)" stroke="url(#gold)" stroke-width="7"/>
+    <circle cx="256" cy="256" r="205" fill="none" stroke="#f4ead5" stroke-opacity=".36" stroke-width="2"/>
+    <circle cx="373" cy="104" r="37" fill="url(#gold)" stroke="#f4ead5" stroke-width="6"/>
+    <path d="M354 104c14-21 34-28 58-20" fill="none" stroke="#fff4d4" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <g fill="#f4ead5" stroke="#e1b55b" stroke-width="5" stroke-linejoin="round">
+      <path d="M225 218C174 178 126 155 77 160c38 30 68 62 91 96-31-14-66-17-103-8 41 25 73 50 96 76-21-2-42 2-62 12 45 21 87 32 129 30l31-34-4-62Z"/>
+      <path d="M287 218c51-40 99-63 148-58-38 30-68 62-91 96 31-14 66-17 103-8-41 25-73 50-96 76 21-2 42 2 62 12-45 21-87 32-129 30l-31-34 4-62Z"/>
+    </g>
+    <g fill="none" stroke="#d59d3f" stroke-width="5" stroke-linecap="round"><path d="M153 214l47 36M139 248l52 27M139 288l53 7M359 214l-47 36M373 248l-52 27M373 288l-53 7"/></g>
+    <path d="M252 351c-32-20-49-50-48-84 1-24 12-44 32-59-8-28 2-55 27-75 6 20 18 33 36 41 19-18 42-27 69-27-16 14-26 30-30 49 19 7 34 19 45 36-21-5-40-2-57 9 10 23 9 46-4 69-14 25-35 41-63 48-2 17 6 34 24 52-18-4-28-16-31-36Z" fill="#b52631" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M252 178c-14-17-18-34-12-52 12 11 23 17 35 18 11-18 25-29 43-35-7 18-6 34 3 49-19 8-32 15-41 26Z" fill="#f4ead5" stroke="#e1b55b" stroke-width="5"/>
+    <path d="M225 189c-25-21-53-28-84-22 18 8 31 19 40 34-19 3-34 11-47 24 25-3 47 3 65 17" fill="none" stroke="#f4ead5" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M257 196c-18-13-40-17-65-12l-27 17 31 7 22 19 45-8Z" fill="#f4ead5" stroke="#e1b55b" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M164 201l-22-13M162 211l-31-1M164 222l-22 13" fill="none" stroke="#f4ead5" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="217" cy="202" r="8" fill="#2a1118" stroke="#f4d98f" stroke-width="4"/>
+    <path d="M191 221c12 7 24 8 37 3" fill="none" stroke="#7b1e27" stroke-width="6" stroke-linecap="round"/>
+    <path d="M279 172c18-17 41-24 68-20-12 9-19 19-22 32 18 6 31 15 40 29-23-6-42-4-59 7" fill="none" stroke="#f4ead5" stroke-width="8" stroke-linecap="round"/>
+    <path d="M278 256c27 22 43 49 47 81 4 32-4 60-25 85-2-30-13-54-32-72-15 31-36 52-64 63 17-24 23-47 18-69-26 1-50-7-70-25 31 7 57 2 78-15-19-18-27-40-24-66 17 26 39 42 66 47Z" fill="#9d202d" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M258 292c18 25 24 51 18 77-5 22-17 40-36 54" fill="none" stroke="#f4ead5" stroke-width="6" stroke-linecap="round"/>
+    <path d="M278 256c25-12 51-13 78-2 16 7 28 18 37 34-21-12-42-15-63-8 18 10 31 24 40 43-27-12-52-13-75-3" fill="none" stroke="#f4ead5" stroke-width="7" stroke-linecap="round"/>
+    <g fill="none" stroke="#e1b55b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M92 348h54l22 18h42M108 376h42l24 20h49M337 348h48l24-22h43M331 379h66l23-18h36M345 405h33l24 18h37M143 348v-25M174 396v-27M409 326v-23M420 361v-23M402 423v-25"/></g>
+    <g fill="#f4d98f" stroke="#7b1e27" stroke-width="4"><circle cx="92" cy="348" r="7"/><circle cx="146" cy="323" r="7"/><circle cx="108" cy="376" r="7"/><circle cx="430" cy="326" r="7"/><circle cx="436" cy="361" r="7"/><circle cx="439" cy="423" r="7"/></g>
+    <path d="M74 431c19-26 43-35 70-25 10-24 30-36 58-32 22 3 37 15 47 35 13-17 31-25 54-22 24 3 40 16 48 39 17-13 35-17 54-11 20 7 32 21 36 42H74Z" fill="#a9272f" stroke="#e1b55b" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M79 461h354M83 474h346" stroke="#f4ead5" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <rect x="316" y="30" width="854" height="240" rx="26" fill="#3c1019" stroke="#8f202c" stroke-width="3"/>
+  <path d="M346 62h794" stroke="#e1b55b" stroke-width="2" opacity=".8"/>
+  <text x="350" y="142" fill="#f4ead5" font-family="STKaiti, KaiTi, Noto Serif SC, Microsoft YaHei, serif" font-size="62" font-weight="700">HongyunX Agent</text>
+  <text x="352" y="194" fill="#e1b55b" font-family="Noto Serif, Georgia, serif" font-size="22" font-weight="700">HongyunX Agent</text>
+  <path d="M352 220h210M1022 220h118" stroke="#e1b55b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="582" cy="220" r="4" fill="#a9272f"/><circle cx="1002" cy="220" r="4" fill="#a9272f"/>
+</svg>

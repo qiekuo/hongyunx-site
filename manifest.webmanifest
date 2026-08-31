@@ -1,0 +1,12 @@
+{
+  "name": "HongyunX",
+  "short_name": "HongyunX",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b0a",
+  "theme_color": "#070b0a",
+  "icons": [
+    { "src": "./branding/hongyunx-mark.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./branding/hongyunx-mark.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

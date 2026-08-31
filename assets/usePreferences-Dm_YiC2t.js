@@ -1,0 +1,2 @@
+import{a as e}from"./rolldown-runtime-CNC7AqOf.js";import{St as t}from"./vendor-lucide-B6RrhaWy.js";var n=e(t(),1),r=(0,n.createContext)(null);function i(){let e=(0,n.useContext)(r);if(!e)throw Error(`usePreferences must be used inside PreferencesProvider`);return e}export{r as n,i as t};
+//# sourceMappingURL=usePreferences-Dm_YiC2t.js.map
