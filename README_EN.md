@@ -182,42 +182,6 @@ POST /api/cron          # Create scheduled task
 
 ---
 
-## Competitive Comparison
-
-| Capability | Claude Code | Codex | Cursor | Trae | Qoder | **HongyunX Agent** |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Agent Kernel | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Sub-Agent Parallel | ✅ | 🟡 | 🟡 | ❌ | 🟡 | ✅ |
-| Cloud Task Parallel | 🟡 | ✅ | ✅ | ❌ | 🟡 | ✅ |
-| Native MCP Protocol | ✅ | 🟡 | ✅ | 🟡 | 🟡 | ✅ |
-| Skills Packages | ✅ | ❌ | 🟡 | ❌ | ❌ | ✅ |
-| Hooks System | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Cross-Session Memory | ✅ | 🟡 | 🟡 | 🟡 | ✅ | ✅ |
-| Repo Wiki Cognition | 🟡 | ❌ | 🟡 | ❌ | ✅ | ✅ |
-| Quest Long-Task Mode | 🟡 | ✅ | 🟡 | ❌ | ✅ | ✅ |
-| Tab Inline Completion | ❌ | ❌ | ✅ | ✅ | 🟡 | ✅ |
-| Composer/Builder Mode | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Multi-Model Routing | 🟡 | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Sandbox Execution | ✅ | ✅ | 🟡 | 🟡 | 🟡 | ✅ |
-| Worktree Isolation | ✅ | 🟡 | ❌ | ❌ | ❌ | ✅ |
-| A2A Collaboration | 🟡 | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Private Deployment | 🟡 | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Domestic Model Support | ❌ | ❌ | 🟡 | ✅ | ✅ | ✅ |
-| SSO/RBAC/Audit | ❌ | ❌ | 🟡 | 🟡 | 🟡 | ✅ |
-| Desktop GUI Config | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ |
-
-> ✅ = Native support | 🟡 = Partial support | ❌ = Not supported
-
-**HongyunX Agent Differentiators:**
-
-1. **「All-in-One」**: All 19 capability dimensions ✅ — unique in the industry
-2. **「Enterprise-First」**: SSO/RBAC/Audit/Quota as first-class citizens from Day 1
-3. **「Sovereign-Ready」**: Complete localization path (Xinchuang ecosystem, domestic models, offline deployment)
-4. **「CLI ⇄ GUI Dual-Form Same-Core」**: Same kernel — CLI for developers, GUI for team management
-5. **「Open Plugin Architecture」**: Skill / MCP / Hook three-layer plugin system with open protocols
-
----
-
 ## Repository Structure
 
 ```
