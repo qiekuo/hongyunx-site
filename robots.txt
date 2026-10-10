@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+# 构建产物与开发目录无需索引，避免抓取无效资源消耗 crawl budget
+Disallow: /assets/
+Disallow: /.vite/
+Disallow: /e2e/
+
 Sitemap: https://qiekuo.github.io/hongyunx-site/sitemap.xml

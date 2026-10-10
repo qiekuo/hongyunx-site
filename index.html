@@ -4,30 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#070b0a" />
-    <meta name="description" content="HongyunX — AI-native development agent with CLI, GUI, and multi-platform gateway | AI 原生开发智能体，支持命令行、图形界面与多平台网关" />
+
+    <!-- 基础 SEO：title 含核心关键词「AI 原生开发智能体」，前置品牌词符合「品牌+品类」最佳实践 -->
+    <title>HongyunX — AI 原生开发智能体 | CLI、GUI 与多平台网关</title>
+    <meta
+      name="description"
+      content="HongyunX 是一款 AI 原生开发智能体（AI-native development agent），以 Rust 内核打通 CLI 命令行与 GUI 桌面端双工作面，支持本地会话恢复、工作区感知与工具执行审批，并提供飞书、Discord 等多平台网关接入。"
+    />
+    <meta name="keywords" content="AI原生开发智能体,AI Agent,CLI,GUI,多平台网关,开发工具,HongyunX" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="HongyunX" />
+    <meta name="generator" content="Vite + React" />
+
     <link rel="icon" type="image/svg+xml" href="./branding/hongyunx-mark.svg" />
-    <title>HongyunX</title>
 
     <!-- Open Graph / 飞书 / 微信 / Slack 链接预览 -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="HongyunX" />
-    <meta property="og:title" content="HongyunX" />
-    <meta property="og:description" content="AI-native development agent with CLI, GUI, and multi-platform gateway. Explore commands, architecture, and live demos." />
+    <meta property="og:title" content="HongyunX — AI 原生开发智能体 | CLI、GUI 与多平台网关" />
+    <meta property="og:description" content="AI 原生开发智能体：一个平台同时提供 CLI 与 GUI 两种工作面，支持会话恢复、工作区感知、工具执行审批与多平台网关接入。" />
     <meta property="og:url" content="https://qiekuo.github.io/hongyunx-site/" />
     <meta property="og:image" content="https://qiekuo.github.io/hongyunx-site/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HongyunX — AI 原生开发智能体平台" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:locale:alternate" content="en_US" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="HongyunX" />
-    <meta name="twitter:description" content="AI-native development agent with CLI, GUI, and multi-platform gateway." />
+    <meta name="twitter:title" content="HongyunX — AI 原生开发智能体 | CLI、GUI 与多平台网关" />
+    <meta name="twitter:description" content="AI 原生开发智能体：以 Rust 内核打通 CLI 与 GUI 双工作面，支持本地优先的智能体开发体验。" />
     <meta name="twitter:image" content="https://qiekuo.github.io/hongyunx-site/og-image.png" />
+    <meta name="twitter:image:alt" content="HongyunX — AI 原生开发智能体平台" />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://qiekuo.github.io/hongyunx-site/" />
+
+    <!-- hreflang：HashRouter 下所有路由共用同一文档，语言版本通过参数区分 -->
+    <link rel="alternate" hreflang="zh-CN" href="https://qiekuo.github.io/hongyunx-site/" />
+    <link rel="alternate" hreflang="en-US" href="https://qiekuo.github.io/hongyunx-site/" />
+    <link rel="alternate" hreflang="x-default" href="https://qiekuo.github.io/hongyunx-site/" />
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="./manifest.webmanifest" />
@@ -35,26 +52,49 @@
     <!-- Apple Touch Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./branding/hongyunx-mark.png" />
 
-    <!-- JSON-LD Structured Data -->
+    <!-- JSON-LD Structured Data：Organization + WebSite + SoftwareApplication 三段式覆盖实体关系 -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "HongyunX",
-      "alternateName": "HongyunX Agent",
-      "applicationCategory": "DeveloperApplication",
-      "operatingSystem": "Any",
-      "description": "AI-native development agent with CLI, GUI, and multi-platform gateway supporting Feishu, Discord, and more.",
-      "url": "https://qiekuo.github.io/hongyunx-site/",
-      "author": {
-        "@type": "Person",
-        "name": "qiekuo"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://qiekuo.github.io/hongyunx-site/#organization",
+          "name": "HongyunX",
+          "url": "https://qiekuo.github.io/hongyunx-site/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://qiekuo.github.io/hongyunx-site/branding/hongyunx-mark.png"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://qiekuo.github.io/hongyunx-site/#website",
+          "url": "https://qiekuo.github.io/hongyunx-site/",
+          "name": "HongyunX",
+          "inLanguage": "zh-CN",
+          "publisher": { "@id": "https://qiekuo.github.io/hongyunx-site/#organization" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "HongyunX",
+          "alternateName": "HongyunX Agent",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "Any (Windows / macOS / Linux)",
+          "description": "AI-native development agent with CLI, GUI, and multi-platform gateway supporting Feishu, Discord, and more.",
+          "url": "https://qiekuo.github.io/hongyunx-site/",
+          "image": "https://qiekuo.github.io/hongyunx-site/og-image.png",
+          "author": { "@id": "https://qiekuo.github.io/hongyunx-site/#organization" },
+          "featureList": [
+            "CLI 交互式终端与一次性任务",
+            "GUI 桌面端会话与代码编辑",
+            "可恢复的本地会话状态",
+            "工作区感知与工具执行审批",
+            "多平台网关（飞书 / Discord）"
+          ],
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        }
+      ]
     }
     </script>
     <script>
@@ -77,22 +117,49 @@
         } catch {}
       })();
     </script>
-    <script type="module" crossorigin src="/hongyunx-site/assets/index-CyYazW1m.js"></script>
+    <script type="module" crossorigin src="/hongyunx-site/assets/index-9rBGXoHi.js"></script>
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/rolldown-runtime-CNC7AqOf.js">
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-lucide-B6RrhaWy.js">
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-motion-CxC5qaxb.js">
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-three-CymPJOrR.js">
-    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/useTranslation-DbRar6Zf.js">
-    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/SeoHead-uJ2VqkOB.js">
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/vendor-tsparticles-CZoAhcem.js">
-    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/chunk-KS7C4IRE-DgZNxtU5.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/useTranslation-VgV3RYgk.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/SeoHead-gLDigs0Q.js">
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/usePreferences-Dm_YiC2t.js">
-    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/SettingsControls-CjbxLAWi.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/SettingsControls-DewX8vlt.js">
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/PageHeader-CKujtrQb.js">
+    <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/RelatedLinks-D6Ucw6Ii.js">
     <link rel="modulepreload" crossorigin href="/hongyunx-site/assets/project-D_5wPD2S.js">
-    <link rel="stylesheet" crossorigin href="/hongyunx-site/assets/index-I8lAspL3.css">
+    <link rel="stylesheet" crossorigin href="/hongyunx-site/assets/index-BKUDdJ1Y.css">
   </head>
   <body>
     <div id="root"></div>
+    <!--
+      CSR 兜底内容：React 挂载前预置语义化正文。
+      Googlebot 虽能执行 JS，但部分爬虫与社交卡片解析器不执行 JS，
+      noscript 中的标题层级与文案可保证核心关键词在无 JS 时仍被索引。
+    -->
+    <noscript>
+      <div class="noscript-fallback">
+        <h1>HongyunX — AI 原生开发智能体</h1>
+        <p>HongyunX 是一个 AI 原生的开发智能体平台，以 Rust 内核将 CLI 命令行与 GUI 桌面端整合为同一套本地运行时：终端侧适合脚本化与快速反馈，图形界面侧适合需要持续观察与编辑的任务。</p>
+        <h2>核心能力</h2>
+        <ul>
+          <li>CLI / TUI 交互式终端：启动会话、执行一次性任务、管理历史记录</li>
+          <li>GUI 桌面端：对话、代码编辑、工作区切换与执行状态反馈</li>
+          <li>可恢复会话：会话事件持久化，长任务可回到最近检查点</li>
+          <li>执行安全：工具调用、工作区信任与审批状态由共享运行时统一控制</li>
+          <li>多平台网关：接入飞书、Discord 等即时通讯平台</li>
+        </ul>
+        <h2>文档入口</h2>
+        <ul>
+          <li><a href="https://qiekuo.github.io/hongyunx-site/#/docs">项目文档总览</a></li>
+          <li><a href="https://qiekuo.github.io/hongyunx-site/#/docs/commands">CLI 命令手册</a></li>
+          <li><a href="https://qiekuo.github.io/hongyunx-site/#/docs/gui">GUI 界面指南</a></li>
+          <li><a href="https://qiekuo.github.io/hongyunx-site/#/experience">交互式体验馆</a></li>
+        </ul>
+        <p>需要启用 JavaScript 才能查看完整交互演示。</p>
+      </div>
+    </noscript>
   </body>
 </html>
